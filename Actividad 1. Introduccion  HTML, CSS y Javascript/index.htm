@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        My Page
+    </title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        ul 
+        {
+            list-style: none;
+        }
+        
+        ul li::before 
+        {
+            content: "\2022";
+            color: black;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h2>
+                My Page
+            </h2>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor-principal">
+            <div>
+                <div class="Rojo"> </div>
+                <div class="Rojo"> </div>
+                <div class="Rojo"> </div>
+                <div class="Rojo"> </div>
+            </div>
+            <div class="Naranja">
+                <div></div>
+            </div>
+        </div>
+    </main>
+    <main id= "contenido-inferior">
+        <div>
+            <h3>
+                Go Next
+            </h3>
+            <h5>
+                The HTML set the structure of web pages, then CSS set the style, now i can go Blazor y C# 
+            </h5>
+    </main>
+    <footer>
+        <div>
+            <ul class="Blanco">
+                <li>Home</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
