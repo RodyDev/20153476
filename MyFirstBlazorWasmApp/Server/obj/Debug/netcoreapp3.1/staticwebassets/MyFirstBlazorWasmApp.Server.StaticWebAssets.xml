@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Client\bin\Debug\netstandard2.1\wwwroot\" />
+</StaticWebAssets>
