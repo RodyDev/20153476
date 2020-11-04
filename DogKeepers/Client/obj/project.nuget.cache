@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4PG4RaMCodG7uaU4farfufzv7btK2uzPZT1AaToY5C84+dJxECQXw4pfbkVw/m7xRqeeYnXYDu4P66XxSIxLQ==",
+  "dgSpecHash": "DWchZyvHgaptskO79gCjuwDMNJTzmxCba1TveK+hVZzdxRLYUAf0uWJQijcwH+OhqzX22NMVS4jUWXe8Auuhyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj",
+  "projectFilePath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Client\\DogKeepers.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CESAR-PC\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\CESAR-PC\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

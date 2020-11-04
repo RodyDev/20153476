@@ -962,11 +962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Server\\DogKeepers.Server.csproj",
+      "projectUniqueName": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\server\\DogKeepers.Server.csproj",
       "projectName": "DogKeepers.Server",
-      "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Server\\DogKeepers.Server.csproj",
+      "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\server\\DogKeepers.Server.csproj",
       "packagesPath": "C:\\Users\\CESAR-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Server\\obj\\",
+      "outputPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CESAR-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -980,11 +980,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj": {
-              "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj"
+            "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Client\\DogKeepers.Client.csproj": {
+              "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Client\\DogKeepers.Client.csproj"
             },
-            "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj": {
-              "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj"
+            "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Shared\\DogKeepers.Shared.csproj": {
+              "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Shared\\DogKeepers.Shared.csproj"
             }
           }
         }

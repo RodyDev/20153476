@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AaZKF+JyjFfbuo54RwTYyRTenpmEO8vNtTvfJG8S6C7ozpePDcg0KcN/YRXT1qU4LJ1Pw8Vzh6A+2jiAiQewuw==",
+  "dgSpecHash": "ZEjEk10vMY81isslsArt9dsgAyWklhNuPqbZtAxyOHK3BcmVAmj7jn4CvmkT3eDiHvLX7+Pdfer7TbtGfeVJfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj",
+  "projectFilePath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Shared\\DogKeepers.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

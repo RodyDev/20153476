@@ -1,0 +1,9 @@
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\bin\Debug\netstandard2.1\DogKeepers.Shared.deps.json
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\bin\Debug\netstandard2.1\DogKeepers.Shared.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\bin\Debug\netstandard2.1\DogKeepers.Shared.pdb
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\obj\Debug\netstandard2.1\DogKeepers.Shared.csprojAssemblyReference.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\obj\Debug\netstandard2.1\DogKeepers.Shared.AssemblyInfoInputs.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\obj\Debug\netstandard2.1\DogKeepers.Shared.AssemblyInfo.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\obj\Debug\netstandard2.1\DogKeepers.Shared.csproj.CoreCompileInputs.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\obj\Debug\netstandard2.1\DogKeepers.Shared.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\Shared\obj\Debug\netstandard2.1\DogKeepers.Shared.pdb
