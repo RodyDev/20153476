@@ -1,0 +1,9 @@
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.deps.json
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.pdb
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.csprojAssemblyReference.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.AssemblyInfoInputs.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.AssemblyInfo.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\MyFirstBlazorWasmApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.pdb

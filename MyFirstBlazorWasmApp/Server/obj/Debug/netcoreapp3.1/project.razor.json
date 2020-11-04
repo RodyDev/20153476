@@ -2846,92 +2846,6 @@
         }
       },
       {
-        "HashCode": 764401820,
-        "Kind": "Components.Component",
-        "Name": "MyFirstBlazorWasmApp.Client.Shared.NavMenu",
-        "AssemblyName": "MyFirstBlazorWasmApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1537223969,
-        "Kind": "Components.Component",
-        "Name": "MyFirstBlazorWasmApp.Client.Shared.NavMenu",
-        "AssemblyName": "MyFirstBlazorWasmApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyFirstBlazorWasmApp.Client.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1349119577,
-        "Kind": "Components.Component",
-        "Name": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt",
-        "AssemblyName": "MyFirstBlazorWasmApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1593522075,
-        "Kind": "Components.Component",
-        "Name": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt",
-        "AssemblyName": "MyFirstBlazorWasmApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 636575004,
         "Kind": "Components.Component",
         "Name": "MyFirstBlazorWasmApp.Client.Shared.Components.Person",
@@ -3207,6 +3121,39 @@
         }
       },
       {
+        "HashCode": 764401820,
+        "Kind": "Components.Component",
+        "Name": "MyFirstBlazorWasmApp.Client.Shared.NavMenu",
+        "AssemblyName": "MyFirstBlazorWasmApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1537223969,
+        "Kind": "Components.Component",
+        "Name": "MyFirstBlazorWasmApp.Client.Shared.NavMenu",
+        "AssemblyName": "MyFirstBlazorWasmApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyFirstBlazorWasmApp.Client.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1085351397,
         "Kind": "Components.Component",
         "Name": "MyFirstBlazorWasmApp.Client.Shared.PublicLayout",
@@ -3299,6 +3246,92 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.PublicLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1349119577,
+        "Kind": "Components.Component",
+        "Name": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt",
+        "AssemblyName": "MyFirstBlazorWasmApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1593522075,
+        "Kind": "Components.Component",
+        "Name": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt",
+        "AssemblyName": "MyFirstBlazorWasmApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyFirstBlazorWasmApp.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1293097950,
+        "Kind": "Components.Component",
+        "Name": "MyFirstBlazorWasmApp.Client.App",
+        "AssemblyName": "MyFirstBlazorWasmApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyFirstBlazorWasmApp.Client.App"
+        }
+      },
+      {
+        "HashCode": 1836970272,
+        "Kind": "Components.Component",
+        "Name": "MyFirstBlazorWasmApp.Client.App",
+        "AssemblyName": "MyFirstBlazorWasmApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyFirstBlazorWasmApp.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyFirstBlazorWasmApp.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -3398,39 +3431,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MyFirstBlazorWasmApp.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1293097950,
-        "Kind": "Components.Component",
-        "Name": "MyFirstBlazorWasmApp.Client.App",
-        "AssemblyName": "MyFirstBlazorWasmApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyFirstBlazorWasmApp.Client.App"
-        }
-      },
-      {
-        "HashCode": 1836970272,
-        "Kind": "Components.Component",
-        "Name": "MyFirstBlazorWasmApp.Client.App",
-        "AssemblyName": "MyFirstBlazorWasmApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyFirstBlazorWasmApp.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyFirstBlazorWasmApp.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

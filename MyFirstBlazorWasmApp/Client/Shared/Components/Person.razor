@@ -1,0 +1,19 @@
+@if (Names.Count() == 0)
+{
+    @Empty
+}else{
+    if(Names.Count() > 2)
+    {
+        @LotPeople
+    }
+    <div class="card" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+        @foreach (string name in Names)
+        {
+            <li class="list-group-item">
+                @GreetingMessage @name!
+            </li>
+        }
+    </ul>
+</div>
+}
