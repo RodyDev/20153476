@@ -1658,11 +1658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Client\\DogKeepers.Client.csproj",
+      "projectUniqueName": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj",
       "projectName": "DogKeepers.Client",
-      "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Client\\DogKeepers.Client.csproj",
+      "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj",
       "packagesPath": "C:\\Users\\CESAR-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Client\\obj\\",
+      "outputPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CESAR-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1676,8 +1676,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Shared\\DogKeepers.Shared.csproj": {
-              "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\dogkeepers\\Shared\\DogKeepers.Shared.csproj"
+            "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj": {
+              "projectPath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj"
             }
           }
         }
