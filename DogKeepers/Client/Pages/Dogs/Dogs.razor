@@ -1,0 +1,36 @@
+@page "/dogs"
+@using DogKeepers.Client.Components.DogCard
+@using DogKeepers.Client.Components.Pagination
+@using Shared.DTOs
+@using DogKeepers.Client.Components.Loading
+
+<div class="container-fluid dogs-page p-5">
+    <div id="section-title" class="row p-2 mb-4">
+        <div class="col-12">
+            <h2>
+                Mascotas en adopción.
+            </h2>
+            <span class="text-muter">
+                No dejes pasar la oportunidad de hacer feliz a un perrito.
+            </span>
+        </div>
+    </div>
+    <div></div>
+    <div>
+        <Loading IsLoading="@IsLoadingDogsList">
+            @if(DogsList?.Count() != 0)
+            {
+                <Pagination PaginationData="@PaginationData" SelectedPage="@OnSelectedPage" />
+                <div class="row">
+                    @foreach (DogDto dog in DogsList)
+                    {
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
+                            <DogCard Dog="@dog" />
+                        </div>
+                    }
+                </div>
+                <Pagination PaginationData="@PaginationData" SelectedPage="@OnSelectedPage" />
+            }
+        </Loading>
+    </div>
+</div>

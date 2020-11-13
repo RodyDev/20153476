@@ -1,0 +1,12 @@
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @foreach (var link in Links)
+        {
+            <li @onclick="() => OnSelectPage(link)" class="page-item @(link.IsEnabled ? null : "disabled") @(link.IsActive ? "active" : null)" style="cursor: : pointer;">
+                <a class="page-link" href="javascript: void(0);">
+                    @link.Text
+                </a>
+            </li>
+        }
+    </ul>
+</nav>
