@@ -1,0 +1,9 @@
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\bin\Debug\netstandard2.1\ExamenPrimerParcial.Shared.deps.json
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\bin\Debug\netstandard2.1\ExamenPrimerParcial.Shared.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\bin\Debug\netstandard2.1\ExamenPrimerParcial.Shared.pdb
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\obj\Debug\netstandard2.1\ExamenPrimerParcial.Shared.csprojAssemblyReference.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\obj\Debug\netstandard2.1\ExamenPrimerParcial.Shared.AssemblyInfoInputs.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\obj\Debug\netstandard2.1\ExamenPrimerParcial.Shared.AssemblyInfo.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\obj\Debug\netstandard2.1\ExamenPrimerParcial.Shared.csproj.CoreCompileInputs.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\obj\Debug\netstandard2.1\ExamenPrimerParcial.Shared.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Shared\obj\Debug\netstandard2.1\ExamenPrimerParcial.Shared.pdb
