@@ -1,11 +1,7 @@
 {
   "FilesToCompress": [
     {
-<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\44rYHYaA7nUhkJaIImmNAeqahHeU5ADWD-kgWqBA21c=.hash",
-=======
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HxEpDKl473pLIqXDBdUiLaG6qq0cVynaOFDInc8zngs=.hash",
->>>>>>> DK-Structure
       "Source": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DogKeepers.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DogKeepers.Client.dll.gz"
     },
@@ -195,11 +191,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
-<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HWzaKd6NYLvwGj_xu1cNtzvGhbEiUSf58kAcfe87HBI=.hash",
-=======
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6RC0zYyOGkh8ptX0Ypr2w0UQ18KwQtCOMp9cRxucVrw=.hash",
->>>>>>> DK-Structure
       "Source": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DogKeepers.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DogKeepers.Shared.dll.gz"
     },
@@ -274,20 +266,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\U0iEkhKEp1zq1YqURx1v9IHwnQNHjbN1oLmp4SAIOI4=.hash",
-=======
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\hI9wQ-zpdYytZyC1IZxUCUteKzz8XQ0mrhjEuWkCx2Y=.hash",
->>>>>>> DK-Structure
       "Source": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DogKeepers.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DogKeepers.Client.pdb.gz"
     },
     {
-<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TMranbwO_fVwVNu-jMqpqdDJSzj1QZEDyhhtSA6aIVw=.hash",
-=======
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\eCzEcoDvSkzmEo56_BBFoVVXpeULb0Kf9_8fv_KQwgk=.hash",
->>>>>>> DK-Structure
       "Source": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DogKeepers.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DogKeepers.Shared.pdb.gz"
     },
@@ -312,11 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-<<<<<<< HEAD
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\X8mwNMLAdhZDpu_w2TMf89mwT6K8_CrIn_jWAHyWVuE=.hash",
-=======
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\8DS3sqXxv_1dONnP8PuNfI1EWamiqgap5L-X8eaydI8=.hash",
->>>>>>> DK-Structure
       "Source": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
