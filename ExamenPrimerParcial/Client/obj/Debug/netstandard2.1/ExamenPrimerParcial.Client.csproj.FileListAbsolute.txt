@@ -366,6 +366,6 @@ C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debu
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\ExamenPrimerParcial.Client.pdb
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\SayHello.razor.g.cs
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\Razor\Pages\SayHello.razor.g.cs
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\integrity\7Tnabzxd6NePr7yNHu4cTXyeuGJ7b25JYQXIvemHmIw=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\integrity\_KE3tZmyEG-mnh_LBFNRKwcn9RWwWbZ0g5N33HU16Cg=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\integrity\hxQOwM8FBipO3hWEez58GdmnOp0Q1ldtWzVmrTB43vs=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\integrity\ITUjyI0CIxM_wMNsyPF-44WEUYjdIUFksBG-iFXZd14=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\integrity\dol6gvk64l2mPMOqVZgbhJ0-_AVuD26K4JuaoTJR9bo=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\ExamenPrimerParcial\Client\obj\Debug\netstandard2.1\integrity\qvXtOkh3wLDxlAkt7iYaoHi4Ke5VuNMz0JYW8SZ044o=.hash

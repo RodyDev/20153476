@@ -99,6 +99,9 @@ app {
 
 .content {
     padding-top: 1.1rem;
+    position: center;
+    align-items: center;
+    margin: 25px;
 }
 
 .navbar-toggler {

@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7Tnabzxd6NePr7yNHu4cTXyeuGJ7b25JYQXIvemHmIw=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ITUjyI0CIxM_wMNsyPF-44WEUYjdIUFksBG-iFXZd14=.hash",
       "Source": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\ExamenPrimerParcial\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\ExamenPrimerParcial.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ExamenPrimerParcial.Client.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_KE3tZmyEG-mnh_LBFNRKwcn9RWwWbZ0g5N33HU16Cg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\dol6gvk64l2mPMOqVZgbhJ0-_AVuD26K4JuaoTJR9bo=.hash",
       "Source": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\ExamenPrimerParcial\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\ExamenPrimerParcial.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ExamenPrimerParcial.Client.pdb.br"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\hxQOwM8FBipO3hWEez58GdmnOp0Q1ldtWzVmrTB43vs=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qvXtOkh3wLDxlAkt7iYaoHi4Ke5VuNMz0JYW8SZ044o=.hash",
       "Source": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\ExamenPrimerParcial\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
