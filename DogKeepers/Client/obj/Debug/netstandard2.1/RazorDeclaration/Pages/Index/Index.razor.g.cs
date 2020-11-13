@@ -84,6 +84,20 @@ using DogKeepers.Client.Components.Loading;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\Pages\Index\Index.razor"
 using DogKeepers.Client.Components.DogCard;
 

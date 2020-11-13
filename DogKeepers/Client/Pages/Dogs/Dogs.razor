@@ -15,22 +15,67 @@
             </span>
         </div>
     </div>
-    <div></div>
-    <div>
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-light bg-light p-3">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control form-control-lg">
+                    <input type="text" class="form-control form-control-lg">
+                    <RadzenTextBox
+                        Placeholder="Name"
+                        class="form-control form-control-lg"
+                    />
+                    <RadzenDropDown
+                        AllowClear="true"
+                        Data="DogsList"
+                        TValue="int"
+                        ValueProperty="Id"
+                        TextProperty="Name"
+                        Placeholder="Talla"
+                        Name="SizeId"
+                        class="form-control form-control-lg"
+                    />
+                    <RadzenDropDown
+                        AllowClear="true"
+                        Data="DogsList"
+                        TValue="int"
+                        ValueProperty="Id"
+                        TextProperty="Name"
+                        Placeholder="Raza"
+                        Name="RaceId"
+                        class="form-control form-control-lg"
+                    />
+                    <div class="input-group-prepend">
+                        <button class="btn btn-primary btn-lg">
+                            Buscar
+                        </button>
+                    </div> 
+                </div>
+                <div class="col-12 text-center p-3">
+                    <span class="text-muted">
+                        Se encontraron 10 perritos
+                    </span>
+                </div>
+            </nav>
+        </div> 
+    </div>
+    <div class="row">
+        <div class="col-12">
         <Loading IsLoading="@IsLoadingDogsList">
             @if(DogsList?.Count() != 0)
-            {
-                <Pagination PaginationData="@PaginationData" SelectedPage="@OnSelectedPage" />
-                <div class="row">
-                    @foreach (DogDto dog in DogsList)
                     {
-                        <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
-                            <DogCard Dog="@dog" />
+                        <Pagination PaginationData="@PaginationData" SelectedPage="@OnSelectedPage" />
+                        <div class="row">
+                            @foreach (DogDto dog in DogsList)
+                            {
+                                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
+                                    <DogCard Dog="@dog" />
+                                </div>
+                            }
                         </div>
+                        <Pagination PaginationData="@PaginationData" SelectedPage="@OnSelectedPage" />
                     }
-                </div>
-                <Pagination PaginationData="@PaginationData" SelectedPage="@OnSelectedPage" />
-            }
-        </Loading>
+            </Loading>
+        </div>
     </div>
 </div>

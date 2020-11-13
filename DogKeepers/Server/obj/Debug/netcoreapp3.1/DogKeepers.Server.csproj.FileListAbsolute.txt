@@ -231,3 +231,5 @@ C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\obj\Debug\netcore
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\obj\Debug\netcoreapp3.1\DogKeepers.Server.dll
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\obj\Debug\netcoreapp3.1\DogKeepers.Server.pdb
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\obj\Debug\netcoreapp3.1\DogKeepers.Server.genruntimeconfig.cache
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
