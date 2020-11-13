@@ -6,11 +6,14 @@
 </div>
 
 <div class="main">
-    <div class="top-row px-4">
-        <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
+    <div class="top-row px-4" style="z-index: 1;">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">Entrar</button>
+            <button type="button" class="btn btn-secondary">Registrarse</button>
+        </div>
     </div>
 
-    <div class="content px-4">
+    <div class="content">
         @Body
     </div>
 </div>

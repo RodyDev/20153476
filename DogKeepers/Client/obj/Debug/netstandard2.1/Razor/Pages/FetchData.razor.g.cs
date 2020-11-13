@@ -73,6 +73,16 @@ using DogKeepers.Client.Layouts;
 #line hidden
 #nullable disable
 #nullable restore
+<<<<<<< HEAD
+#line 10 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\_Imports.razor"
+using DogKeepers.Client.Components.Loading;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+=======
+>>>>>>> DK-Structure
 #line 2 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\Pages\FetchData.razor"
 using DogKeepers.Shared;
 

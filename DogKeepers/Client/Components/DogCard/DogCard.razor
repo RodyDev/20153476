@@ -1,0 +1,31 @@
+@using Shared.DTOs
+
+<div class="card dog-card shadow">
+    <img src="images/GoldenRetriever.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h4 class="card-title text-center">
+            @Dog.Name
+        </h4>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <small>Edad:</small>
+            <span>@Dog.Age</span>
+        </li>
+        <li class="list-group-item">
+            <small>Raza:</small>
+            <span>@Dog.Race.Name</span>
+        </li>
+        <li class="list-group-item">
+            <small>Talla:</small>
+            <span>@Dog.Size.Name</span>
+        </li>
+    </ul>
+    <div class="card-body">
+        <a href="/Dog/@Dog.Id" class="btn btn-light">Más...</a>
+    </div>
+</div>
+@code
+{
+    [Parameter] public DogDto Dog { get; set; }
+}

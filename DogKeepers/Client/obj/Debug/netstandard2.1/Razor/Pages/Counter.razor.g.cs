@@ -72,6 +72,16 @@ using DogKeepers.Client.Layouts;
 #line default
 #line hidden
 #nullable disable
+<<<<<<< HEAD
+#nullable restore
+#line 10 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\_Imports.razor"
+using DogKeepers.Client.Components.Loading;
+
+#line default
+#line hidden
+#nullable disable
+=======
+>>>>>>> DK-Structure
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

@@ -6,6 +6,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using System.Threading.Tasks;
+using DogKeepers.Server.Entities;
+using DogKeepers.Server.Interfaces.Services;
+using DogKeepers.Server.Services;
+using DogKeepers.Server.Interfaces.Repositories;
+using DogKeepers.Server.Repositories;
+
+using Microsoft.AspNetCore.Mvc;
+
 
 namespace DogKeepers.Server
 {
@@ -25,6 +34,9 @@ namespace DogKeepers.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddScoped<IDogRepository, DogRepository>();
+            services.AddScoped<IDogService, DogService>();
+            services.AddSingleton<IBaseRepository, BaseRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

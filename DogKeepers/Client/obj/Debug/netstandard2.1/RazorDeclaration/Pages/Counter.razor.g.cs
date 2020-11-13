@@ -70,7 +70,7 @@ using DogKeepers.Client;
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\_Imports.razor"
+#line 13 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\_Imports.razor"
 using DogKeepers.Client.Layouts;
 
 #line default

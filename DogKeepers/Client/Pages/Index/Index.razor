@@ -1,0 +1,44 @@
+﻿@page "/"
+@page "/index"
+@using DogKeepers.Client.Components.DogCard
+@using Shared.DTOs
+
+<div class="container-fluid index-page">
+    <div class="banner row">
+        <div class="banner-image"></div>
+        <div class="overlay">
+            <div class="text">
+                Dales un hogar, adopta.
+            </div>
+        </div>
+    </div>
+    <div class="suggestions">
+        <div class="container">
+            <h2 class="text-center font-weight-bold p-3 mb-3">
+                Mascotas en adopción.
+            </h2>
+            <Loading
+                IsLoading="@IsLoadingDogsSuggestions"
+            >
+                @if (DogList != null)
+                {
+                    <div class="row">
+                        @foreach (DogDto dog in DogList)
+                        {
+                            <div class="col-12 col-md-4">
+                                <DogCard Dog="@dog" />
+                            </div>
+                        }
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <a href="/dogs" class="btn btn-dark btn-lg text-light">
+                                Ver más mascotas
+                            </a>
+                        </div>
+                    </div>
+                }
+            </Loading>
+        </div>
+    </div>
+</div>

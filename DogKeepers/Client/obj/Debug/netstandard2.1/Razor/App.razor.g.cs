@@ -72,6 +72,16 @@ using DogKeepers.Client.Layouts;
 #line default
 #line hidden
 #nullable disable
+<<<<<<< HEAD
+#nullable restore
+#line 10 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\_Imports.razor"
+using DogKeepers.Client.Components.Loading;
+
+#line default
+#line hidden
+#nullable disable
+=======
+>>>>>>> DK-Structure
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
