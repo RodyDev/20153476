@@ -19,41 +19,45 @@
         <div class="col-12">
             <nav class="navbar navbar-light bg-light p-3">
                 <div class="input-group input-group-lg">
-                    <input type="text" class="form-control form-control-lg">
-                    <input type="text" class="form-control form-control-lg">
                     <RadzenTextBox
                         Placeholder="Name"
                         class="form-control form-control-lg"
+                        @bind-Value="Filters.Name"
                     />
                     <RadzenDropDown
                         AllowClear="true"
-                        Data="DogsList"
+                        Data="Sizes"
                         TValue="int"
                         ValueProperty="Id"
                         TextProperty="Name"
                         Placeholder="Talla"
                         Name="SizeId"
                         class="form-control form-control-lg"
+                        @bind-Value="Filters.SizeId"
                     />
                     <RadzenDropDown
                         AllowClear="true"
-                        Data="DogsList"
+                        Data="Races"
                         TValue="int"
                         ValueProperty="Id"
                         TextProperty="Name"
                         Placeholder="Raza"
                         Name="RaceId"
                         class="form-control form-control-lg"
+                        AllowFiltering = "true"
+                        FilterCaseSensitivity = "FilterCaseSensitivity.CaseInsensitive"
+                        FilterOperator="StringFilterOperator.Contains"
+                        @bind-Value="Filters.RaceId"
                     />
                     <div class="input-group-prepend">
-                        <button class="btn btn-primary btn-lg">
+                        <button class="btn btn-primary btn-lg" @onclick="@OnSearch"> 
                             Buscar
                         </button>
                     </div> 
                 </div>
                 <div class="col-12 text-center p-3">
                     <span class="text-muted">
-                        Se encontraron 10 perritos
+                        Se encontraron @TotalDogs perritos
                     </span>
                 </div>
             </nav>

@@ -14,45 +14,68 @@ namespace DogKeepers.Client.Pages.Dogs
     {
         [Inject] public HttpClient httpClient { get; set; }
 
-        public List<DogDto> DogsList { get; set; } = null;
+        private int TotalDogs = 0;
+        private List<DogDto> DogsList = null;
+        private List<SizeDto> Sizes = new List<SizeDto>();
 
-        public bool IsLoadingDogsList { get; set; } = true;
+        private List<RaceDto> Races = new List<RaceDto>();
 
-        public PaginationMetadata PaginationData { get; set; }
+        private bool IsLoadingDogsList = true;
 
-        public DogsQueryFilter Filters = new DogsQueryFilter();
+        private PaginationMetadata PaginationData;
+
+        private DogsQueryFilter Filters = new DogsQueryFilter();
+
         
 
         protected override async Task OnInitializedAsync()
         {
             await LoadDogs();
+            await LoadSizes();
+            await LoadRaces();
         }
 
-        private async Task LoadDogs()
+        private async Task LoadDogs(bool search = false)
         {
             DogsList = null;
             IsLoadingDogsList = true;
 
             Filters.PageNumberForce =
-                PaginationData == null
+                PaginationData == null || search
                     ? 1
                     : Filters.PageNumberForce;
             
-            var filterString = $"?pageNumber={Filters.PageNumber}&pageSize=8";
+            var filterString = $"?pageNumber={Filters.PageNumber}&pageSize=8&Name={Filters.Name}&SizeId={Filters.SizeId}&RaceId={Filters.RaceId}";
 
             var response=
                 await httpClient.GetFromJsonAsync<ApiResponse<List<DogDto>>>($"/api/dog/getlist{filterString}");
 
                 DogsList = response.Data;
                 PaginationData = response.Pagination;
+                TotalDogs = response.Pagination.TotalCount;
                 
                 IsLoadingDogsList = false;
+        }
+
+        private async Task LoadSizes()
+        {
+            Sizes =
+                await httpClient.GetFromJsonAsync<List<SizeDto>>("/api/size");
+        }
+        private async Task LoadRaces()
+        {
+            Races =
+                await httpClient.GetFromJsonAsync<List<RaceDto>>("/api/race");
         }
 
         private async Task OnSelectedPage(int pageNumberClicked)
         {
             Filters.PageNumberForce = pageNumberClicked;
             await LoadDogs();
+        }
+        private async Task OnSearch()
+        {
+            await LoadDogs(true);
         }
     }
 }

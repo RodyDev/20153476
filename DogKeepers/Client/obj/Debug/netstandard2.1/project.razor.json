@@ -79,6 +79,59 @@
         }
       },
       {
+        "HashCode": 1015307293,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Dog",
+            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
+            "Metadata": {
+              "Common.PropertyName": "Dog"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard"
+        }
+      },
+      {
+        "HashCode": -563884599,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.DogCard.DogCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Dog",
+            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
+            "Metadata": {
+              "Common.PropertyName": "Dog"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1291544922,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Components.Loading.Loading",
@@ -187,59 +240,6 @@
         }
       },
       {
-        "HashCode": 1015307293,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DogCard"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Dog",
-            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
-            "Metadata": {
-              "Common.PropertyName": "Dog"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard"
-        }
-      },
-      {
-        "HashCode": -563884599,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DogKeepers.Client.Components.DogCard.DogCard"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Dog",
-            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
-            "Metadata": {
-              "Common.PropertyName": "Dog"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -741542286,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
@@ -269,6 +269,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1342278582,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Dogs.Dogs",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Dogs"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Dogs.Dogs"
+        }
+      },
+      {
+        "HashCode": -492038949,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Dogs.Dogs",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Pages.Dogs.Dogs"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Dogs.Dogs",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -372,6 +405,39 @@
         }
       },
       {
+        "HashCode": -997006616,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.App",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.App"
+        }
+      },
+      {
+        "HashCode": 1262302166,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.App",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -928602317,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Layouts.MainLayout",
@@ -464,39 +530,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "DogKeepers.Client.Layouts.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -997006616,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.App",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.App"
-        }
-      },
-      {
-        "HashCode": 1262302166,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.App",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DogKeepers.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
