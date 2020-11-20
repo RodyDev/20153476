@@ -410,6 +410,8 @@ C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstan
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Linq.Dynamic.Core.pdb.br
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\Py4h8rvlTlFN9IAbAFXLOIqlXvr6WOHHTbp2UGsfT-w=.hash
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\3phXrCBcRBRhr-fGQQ9W3rxyaf5LS6NNhWIDNxMC784=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\Hgzb1br2GBTP9VGQVkIqCwMqiligZiSpepTAAjs-ixA=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\rdHmU87J_CweImM807wzem-uQfYDktJ0R_0m5kpNXUs=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\8LP20gIN0ZRmvyHMxfwJCwt42Y47A89hz5UbU0_pT38=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Cares\Cares.razor.g.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Pages\Cares\Cares.razor.g.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\GfLzZQTbYIT8XizKV4YRcIkyhC2rvQ8bgDMWtNnnSEk=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\u2WZSa86ynJNJQn4IcgVmQgQRluQiQxntavuTLNdy0c=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\CQFgsWdBZELK26A_-DjgnDx-1q2zDUcTr7buiW-VLuU=.hash

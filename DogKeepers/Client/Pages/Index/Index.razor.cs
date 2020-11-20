@@ -14,7 +14,7 @@ namespace DogKeepers.Client.Pages.Index
 
         private List<DogDto> DogList { get; set; } = null;
 
-        public bool IsLoadingDogsSuggestions { get; set; } = true;
+        private bool IsLoadingDogsSuggestions { get; set; } = true;
 
         protected override async Task OnInitializedAsync(){
             await LoadSuggestions();
