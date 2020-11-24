@@ -412,6 +412,6 @@ C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstan
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\3phXrCBcRBRhr-fGQQ9W3rxyaf5LS6NNhWIDNxMC784=.hash
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Cares\Cares.razor.g.cs
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Pages\Cares\Cares.razor.g.cs
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\GfLzZQTbYIT8XizKV4YRcIkyhC2rvQ8bgDMWtNnnSEk=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\u2WZSa86ynJNJQn4IcgVmQgQRluQiQxntavuTLNdy0c=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\CQFgsWdBZELK26A_-DjgnDx-1q2zDUcTr7buiW-VLuU=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\tpZCnKs7Pseq6GXmKHqPXEz258EVl6xObE5zSx1kk3I=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\lTIkcleaovkaT3B5TA_I5T2KHqprJMYE-CTzzoZYipQ=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\kgOpE0VkTFXoPcNmPvVAD5y11imZhvbz1P0OAkVHX48=.hash

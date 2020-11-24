@@ -339,39 +339,6 @@
         }
       },
       {
-        "HashCode": -1081869295,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Pages.Cares.Cares",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Cares"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Pages.Cares.Cares"
-        }
-      },
-      {
-        "HashCode": -1210037408,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Pages.Cares.Cares",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DogKeepers.Client.Pages.Cares.Cares"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Pages.Cares.Cares",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 205561595,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Pages.Counter",
@@ -434,6 +401,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DogKeepers.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1081869295,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Cares.Cares",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Cares"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Cares.Cares"
+        }
+      },
+      {
+        "HashCode": -1210037408,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Cares.Cares",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Pages.Cares.Cares"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Cares.Cares",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
