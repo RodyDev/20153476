@@ -12,9 +12,8 @@ using DogKeepers.Server.Interfaces.Services;
 using DogKeepers.Server.Services;
 using DogKeepers.Server.Interfaces.Repositories;
 using DogKeepers.Server.Repositories;
-
 using Microsoft.AspNetCore.Mvc;
-
+using DogKeepers.Server.Options;
 
 namespace DogKeepers.Server
 {
@@ -41,7 +40,14 @@ namespace DogKeepers.Server
             services.AddScoped<ISizeRepository, SizeRepository>();
             services.AddScoped<IRaceService, RaceService>();
             services.AddScoped<IRaceRepository, RaceRepository>();
-
+            services.Configure<ConnectionStringsOptions>(
+                options =>
+                Configuration.GetSection("ConnectionStrings").Bind(options)
+            );
+            services.Configure<PaginationOption>(
+                options =>
+                Configuration.GetSection("Pagination").Bind(options)
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

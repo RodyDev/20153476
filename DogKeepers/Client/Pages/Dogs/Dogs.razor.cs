@@ -45,7 +45,7 @@ namespace DogKeepers.Client.Pages.Dogs
                     ? 1
                     : Filters.PageNumberForce;
             
-            var filterString = $"?pageNumber={Filters.PageNumber}&pageSize=8&Name={Filters.Name}&SizeId={Filters.SizeId}&RaceId={Filters.RaceId}";
+            var filterString = $"?pageNumber={Filters.PageNumber}&pageSize={Filters.PageSize}&Name={Filters.Name}&SizeId={Filters.SizeId}&RaceId={Filters.RaceId}";
 
             var response=
                 await httpClient.GetFromJsonAsync<ApiResponse<List<DogDto>>>($"/api/dog/getlist{filterString}");

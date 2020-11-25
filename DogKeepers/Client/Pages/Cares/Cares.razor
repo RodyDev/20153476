@@ -1,33 +1,99 @@
 @page "/cares"
 
+
+
 <div class="container-fluid dogs-page p-5">
     <div id="section-title" class="row p-2 mb-4">
         <div class="col-12 text-center">
-            <h2>
+            <h1>
                 <img src="images\huella-small.png" alt="">
                 Guía del humano responsable.
                 <img src="images\huella-small.png" alt="">
-            </h2>
+            </h1>
             <span class="text-muter">
                 Porque formará parte de tu familia, te invitamos a informarte sobre los cuidados y necesidades de tu
                 nuevo mejor amigo.
             </span>
         </div>
     </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <a href="/dogs" class="btn btn-dark btn-lg text-light shadow p-3 mb-5 rounded">
-                    Adoptar un perrito
+
+    <div class="container">
+        <style>
+            .container
+            {
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+        <div class="w-75 h-75 pd-15px">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="5000">
+                        <img src="images\Perritos-2.jpg" class="d-block w-100 h-100"
+                            alt="First Slide">
+                        <div class="carousel-caption d-md-block">
+                            <h5>¡Adopta hoy!</h5>
+                            <p>¡No dejes pasar la oportunidad de hacer feliz a un perrito!.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <img src="images\Perritos-1.jpg" class="d-block w-100 h-100"
+                            alt="Second Slide">
+                        <div class="carousel-caption d-md-block">
+                            <h5>¡Adopta hoy!</h5>
+                            <p>¡No dejes pasar la oportunidad de hacer feliz a un perrito!.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <img src="images\Perritos-3.jpg" class="d-block w-100 h-100"
+                            alt="Third Slide">
+                        <div class="carousel-caption d-md-block">
+                            <h5>¡Adopta hoy!</h5>
+                            <p>¡No dejes pasar la oportunidad de hacer feliz a un perrito!.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <img src="images\Perritos-4.jpg" class="d-block w-100 h-100"
+                            alt="Third Slide">
+                        <div class="carousel-caption d-md-block">
+                            <h5>¡Adopta hoy!</h5>
+                            <p>¡No dejes pasar la oportunidad de hacer feliz a un perrito!.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </a>
             </div>
         </div>
+    </div>
 </div>
+
+<div class="container">
+        <div class="col-12 text-center">
+            <a href="/dogs" class="btn btn-dark btn-lg text-light shadow p-3 mb-5 rounded">
+                Adoptar un perrito
+            </a>
+        </div>
+    </div>
 
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1 class="text-center">Cachorros</h1>
-
+            <h1 class="text-center">
+                Cachorros
+            </h1>
             <ul class="list-unstyled text-justify">
                 <li class="media my-4">
                     <img src="images\Collar-Ligero.png" class="mr-3" alt="...">
@@ -115,10 +181,10 @@
                 </li>
             </ul>
         </div>
-
         <div class="col">
-            <h1 class="text-center">Adulto joven en adelante</h1>
-
+            <h1 class="text-center">
+                Adulto joven en adelante
+            </h1>
             <ul class="list-unstyled text-justify">
                 <li class="media my-4">
                     <img src="images\Collar-Ligero.png" class="mr-3" alt="...">
@@ -222,8 +288,11 @@
 </div>
 
 <div class="alert alert-success" role="alert">
-    <h4 class="alert-heading text-center">!Bien hecho!</h4>
-    <p class="text-center">Ahora sabes todo sobre como cuidar a tu perrito, con estos conocimientos tu perrito será más
-        feliz en tu
-        compañía.</p>
+    <h4 class="alert-heading text-center">
+        !Bien hecho!
+    </h4>
+    <p class="text-center">
+        Ahora sabes todo sobre como cuidar a tu perrito, con estos conocimientos tu perrito será más feliz en tu
+        compañía.
+    </p>
 </div>

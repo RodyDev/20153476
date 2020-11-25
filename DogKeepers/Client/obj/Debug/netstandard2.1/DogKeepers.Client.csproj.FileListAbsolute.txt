@@ -412,6 +412,10 @@ C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstan
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\3phXrCBcRBRhr-fGQQ9W3rxyaf5LS6NNhWIDNxMC784=.hash
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Cares\Cares.razor.g.cs
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Pages\Cares\Cares.razor.g.cs
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\tpZCnKs7Pseq6GXmKHqPXEz258EVl6xObE5zSx1kk3I=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\lTIkcleaovkaT3B5TA_I5T2KHqprJMYE-CTzzoZYipQ=.hash
-C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\kgOpE0VkTFXoPcNmPvVAD5y11imZhvbz1P0OAkVHX48=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Dog\Dog.razor.g.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Pages\Dog\Dog.razor.g.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Components\SectionPage\SectionPage.razor.g.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Components\SectionPage\SectionPage.razor.g.cs
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\laYhpYuRY6o1NAbIw1V2ZPF4GnFPGKECTFQZ_w9BbeI=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\jlMz5yWfhdf0RCBFS1LzGnebpoOshiaqUS485rJ5Oy8=.hash
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\hmZ14baKYCOBCJFsf_FgEVNe9xnoZ5wbQlrHqfQjQbQ=.hash

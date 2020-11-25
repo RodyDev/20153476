@@ -79,6 +79,39 @@
         }
       },
       {
+        "HashCode": -741542286,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu"
+        }
+      },
+      {
+        "HashCode": -890888508,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.NavMenu.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1015307293,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Components.DogCard.DogCard",
@@ -128,6 +161,146 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1834515357,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.SectionPage.SectionPage",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SectionPage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PageName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageName"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Hint",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Hint"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.SectionPage.SectionPage"
+        }
+      },
+      {
+        "HashCode": 803155893,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.SectionPage.SectionPage",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.SectionPage.SectionPage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PageName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageName"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Hint",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Hint"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.SectionPage.SectionPage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1128144862,
+        "Kind": "Components.ChildContent",
+        "Name": "DogKeepers.Client.Components.SectionPage.SectionPage.ChildContent",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "SectionPage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "DogKeepers.Client.Components.SectionPage.SectionPage.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -465279738,
+        "Kind": "Components.ChildContent",
+        "Name": "DogKeepers.Client.Components.SectionPage.SectionPage.ChildContent",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "DogKeepers.Client.Components.SectionPage.SectionPage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "DogKeepers.Client.Components.SectionPage.SectionPage.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -236,39 +409,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "DogKeepers.Client.Components.Loading.Loading.ChildContent",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -741542286,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu"
-        }
-      },
-      {
-        "HashCode": -890888508,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DogKeepers.Client.Components.NavMenu.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -401,6 +541,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DogKeepers.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1998836932,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Dog.Dog",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Dog"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "DogId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "DogId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Dog.Dog"
+        }
+      },
+      {
+        "HashCode": -967565391,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Dog.Dog",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Pages.Dog.Dog"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "DogId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "DogId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Dog.Dog",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -49430,6 +49623,11 @@
   "RootNamespace": "DogKeepers.Client",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\Pages\\Dog\\Dog.razor",
+      "TargetPath": "Pages\\Dog\\Dog.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\Components\\Loading\\Loading.razor",
       "TargetPath": "Components\\Loading\\Loading.razor",
       "FileKind": "component"
@@ -49478,6 +49676,11 @@
       "FilePath": "c:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\Components\\SectionPage\\SectionPage.razor",
+      "TargetPath": "Components\\SectionPage\\SectionPage.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Client\\Pages\\Counter.razor",

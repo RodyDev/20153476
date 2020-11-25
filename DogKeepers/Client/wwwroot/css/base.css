@@ -33,6 +33,8 @@ body{
     }
 }
 
+/*Banner */
+
 .banner
 {
     position: relative;
@@ -76,6 +78,9 @@ body{
             translate: translate(60%, 60%);
             -ms-transform: translate(60%, 60%);
         }
+
+/*Index-page*/
+
 .index-page .suggestions
 {
     min-height: 400px;
@@ -88,3 +93,16 @@ body{
     max-height: 200px;
 }
 
+/*Dog-Page*/
+
+#dog-page .banner
+{
+    position: relative;
+}
+    #dog-page .banner .banner-image
+    {
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position-y: center;
+    }

@@ -3,8 +3,84 @@
 @using DogKeepers.Client.Components.Pagination
 @using Shared.DTOs
 @using DogKeepers.Client.Components.Loading
+<SectionPage
+    PageName="dogs"
+    Title="Mascotas en adopción"
+    Hint="No dejes pasar la oportunidad de hacer feliz a un perrito"
+>
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-light bg-light p-3">
+                <div class="input-group input-group-lg">
+                    <RadzenTextBox
+                        Placeholder="Name"
+                        class="form-control form-control-lg"
+                        @bind-Value="Filters.Name"
+                    />
+                    <RadzenDropDown
+                        AllowClear="true"
+                        Data="Sizes"
+                        TValue="int"
+                        ValueProperty="Id"
+                        TextProperty="Name"
+                        Placeholder="Talla"
+                        Name="SizeId"
+                        class="form-control form-control-lg"
+                        @bind-Value="Filters.SizeId"
+                    />
+                    <RadzenDropDown
+                        AllowClear="true"
+                        Data="Races"
+                        TValue="int"
+                        ValueProperty="Id"
+                        TextProperty="Name"
+                        Placeholder="Raza"
+                        Name="RaceId"
+                        class="form-control form-control-lg"
+                        AllowFiltering = "true"
+                        FilterCaseSensitivity = "FilterCaseSensitivity.CaseInsensitive"
+                        FilterOperator="StringFilterOperator.Contains"
+                        @bind-Value="Filters.RaceId"
+                    />
+                    <div class="input-group-prepend">
+                        <button class="btn btn-primary btn-lg" @onclick="@OnSearch"> 
+                            Buscar
+                        </button>
+                    </div> 
+                </div>
+                <div class="col-12 text-center p-3">
+                    <span class="text-muted">
+                        Se encontraron @TotalDogs perritos
+                    </span>
+                </div>
+            </nav>
+        </div> 
+    </div>
+    <div class="row">
+        <div class="col-12">
+        <Loading IsLoading="@IsLoadingDogsList">
+            @if(DogsList?.Count() != 0)
+                    {
+                        <Pagination PaginationData="@PaginationData" SelectedPage="@OnSelectedPage" />
+                        <div class="row">
+                            @foreach (DogDto dog in DogsList)
+                            {
+                                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
+                                    <DogCard Dog="@dog" />
+                                </div>
+                            }
+                        </div>
+                        <Pagination PaginationData="@PaginationData" SelectedPage="@OnSelectedPage" />
+                    }
+            </Loading>
+        </div>
+    </div>
 
-<div class="container-fluid dogs-page p-5">
+</SectionPage>
+
+// Sin el SectionPage //
+
+@* <div class="container-fluid dogs-page p-5">
     <div id="section-title" class="row p-2 mb-4">
         <div class="col-12">
             <h2>
@@ -83,3 +159,4 @@
         </div>
     </div>
 </div>
+*@

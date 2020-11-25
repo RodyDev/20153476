@@ -98,6 +98,13 @@ using Radzen.Blazor;
 #line hidden
 #nullable disable
 #nullable restore
+#line 13 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\_Imports.razor"
+using DogKeepers.Client.Components.SectionPage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Client\Pages\Index\Index.razor"
 using DogKeepers.Client.Components.DogCard;
 

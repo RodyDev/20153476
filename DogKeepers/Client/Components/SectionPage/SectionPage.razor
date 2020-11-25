@@ -1,0 +1,25 @@
+<div id="@PageName" class="container-fluid p-5">
+    <div id="section-title" class="row p-2 mb-4">
+        <div class="col-12">
+            <h2>
+                @Title
+            </h2>
+            <span class="text-muter">
+                @Hint
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            @ChildContent
+        </div>
+    </div>
+</div>
+
+@code
+{
+    [Parameter] public string PageName { get; set; }
+    [Parameter] public string Title { get; set; }
+    [Parameter] public string Hint { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+}

@@ -4,23 +4,26 @@ using DogKeepers.Server.Interfaces.Services;
 using DogKeepers.Server.Interfaces.Repositories;
 using DogKeepers.Server.Utils;
 using DogKeepers.Shared.QueryFilters;
-
+using DogKeepers.Server.Options;
+using Microsoft.Extensions.Options;
 
 namespace DogKeepers.Server.Services
 {
     public class DogService : IDogService
     {
         private readonly IDogRepository  dogRepository;
+        private readonly PaginationOption paginationOption;
 
-        public DogService(IDogRepository dogRepository)
+        public DogService(IDogRepository dogRepository, IOptions<PaginationOption> paginationOption)
         {
             this.dogRepository = dogRepository;
+            this.paginationOption = paginationOption.Value;
         }
         
         public async Task<PagedList<Dog>> GetList(DogsQueryFilter model)
         {
-            model.PageNumber = 1;
-            model.PageSize = 10;
+            model.PageNumber = paginationOption.DefaultPageNumber;
+            model.PageSize = paginationOption.DefaultPageSize;
             
             var dogs = await dogRepository.GetList(model);
             var response = PagedList<Dog>.Create(
@@ -31,6 +34,12 @@ namespace DogKeepers.Server.Services
             );
 
             return response;
+        }
+        public async Task<Dog> GetById(int id)
+        {
+            var dog= await dogRepository.GetById(id);
+
+            return dog;
         }
     }
 }

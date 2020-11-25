@@ -1,10 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Dapper;
 using DogKeepers.Server.Entities;
 using DogKeepers.Server.Interfaces.Repositories;
+using DogKeepers.Server.Options;
 using DogKeepers.Shared.QueryFilters;
+using Microsoft.Extensions.Options;
 using MySql.Data.MySqlClient;
 
 namespace DogKeepers.Server.Repositories
@@ -12,10 +15,11 @@ namespace DogKeepers.Server.Repositories
     public class DogRepository : IDogRepository
     {
         private readonly IBaseRepository baseRepository;
-
-        public DogRepository(IBaseRepository baseRepository)
+        private readonly string connectionString;
+        public DogRepository(IBaseRepository baseRepository, IOptions<ConnectionStringsOptions> connectionString)
         {
             this.baseRepository = baseRepository;
+            this.connectionString = connectionString.Value.Production;
         }
 
         public async Task<Tuple<int, List<Dog>>> GetList(DogsQueryFilter model)
@@ -69,7 +73,7 @@ namespace DogKeepers.Server.Repositories
             var count = await baseRepository.Count(sqlCountCommand);
 
             if (count > 0)
-                using (var connection = new MySqlConnection("Server=localhost;Database=Dogkeepers;User Id=root"))
+                using (var connection = new MySqlConnection(connectionString))
                 {
                     var sqlResponse =
                         await connection.QueryAsync<Dog, Race, Size, Dog>(
@@ -88,6 +92,41 @@ namespace DogKeepers.Server.Repositories
                 }
 
             return new Tuple<int, List<Dog>>(count, dogs);
+        }
+
+        public async Task<Dog> GetById(int id)
+        {
+            Dog dog = null;
+            var sqlCommand = $@"
+                select
+                    *
+                from
+                    dogs
+                    join races
+                        on races.Id = raceId
+                    join sizes
+                        on sizes.Id = sizeId
+                where
+                    dogs.id = {id}
+            ";
+
+            using (var connection = new MySqlConnection(connectionString))
+                {
+                    var sqlResponse =
+                        await connection.QueryAsync<Dog, Race, Size, Dog>(
+                            sqlCommand,
+                            (dg, ra, si) =>
+                            {
+                                dg.Race = ra;
+                                dg.Size = si;
+
+                                return dg;
+                            },
+                            splitOn: "id, id"
+                        );
+                    dog = sqlResponse.FirstOrDefault();
+                }
+            return dog;
         }
     }
 }
