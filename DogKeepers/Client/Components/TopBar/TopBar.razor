@@ -1,0 +1,17 @@
+@using DogKeepers.Client.Components.SignIn
+
+<div class="top-row px-4" style="z-index: 10;">
+    <AuthorizeView>
+        <Authorized>
+            <div>
+                Hola @context.User.Identity.Name
+            </div>
+        </Authorized>
+        <NotAuthorized>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <SignInButton />
+                <button type="button" class="btn btn-secondary">Registrarse</button>
+            </div>
+        </NotAuthorized>
+    </AuthorizeView>
+</div>

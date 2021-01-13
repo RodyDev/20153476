@@ -1,0 +1,62 @@
+<div class="row">
+    <div class="col text-right">
+        <button
+            class="btn btn-ouline-light text-center font-weight-bolder"
+            @onclick="@(args => dialogService.Close(true))"
+        >
+            <span>X</span>
+        </button>
+    </div>
+</div>
+<SectionPage
+    PageName = "component-signindialog"
+    Title = "Iniciar Sesión"
+    Hint = "Indica los datos que se solicitan"
+>
+    <EditForm
+        Model="user"
+        OnValidSubmit="SignIn"
+    >
+        <DataAnnotationsValidator />
+        <div class="row">
+            <div class="col alert alert-danger @((String.IsNullOrEmpty(errorMessage)) ? "d-none" : "")">
+                @errorMessage
+            </div>
+        </div>
+        <div class="col-12 col-md-8 offset-md-2">
+            <div class="form-group row">
+                <label for="email" class="col-12">
+                    Correo electrónico
+                </label>
+                <InputText
+                    id="email"
+                    name="email"
+                    readonly="@isLoading"
+                    @bind-Value="@user.Email"
+                    class="form-control form-control-lg"
+                />
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-12">
+                    Contraseña
+                </label>
+                <InputText
+                    id="password"
+                    name="password"
+                    type="password"
+                    readonly="@isLoading"
+                    @bind-Value="@user.Password"
+                    class="form-control form-control-lg"
+                />
+            </div>
+            <div class="form-group row">
+                <div class="col-12">
+                    <button class="btn btn-primary btn-lg" 
+                    disabled=@isLoading>
+                        Entrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </EditForm>
+</SectionPage>

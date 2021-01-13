@@ -6,6 +6,7 @@ namespace DogKeepers.Shared.ApiResponses
     {
         public T Data { get; set; }
         public PaginationMetadata Pagination { get; set; }
+        public ErrorResponse[] Errors { get; set; }
 
         public ApiResponse()
         {}

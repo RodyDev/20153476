@@ -12,7 +12,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 333263053,
+        "HashCode": 860021147,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -26,21 +26,21 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Authorizing",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Authorizing",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
             "Name": "NotAuthorized",
             "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
             "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorizing",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Authorizing",
               "Components.ChildContent": "True"
             }
           },
@@ -79,7 +79,7 @@
         }
       },
       {
-        "HashCode": -813683832,
+        "HashCode": -2020500193,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -93,21 +93,21 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Authorizing",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Authorizing",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
             "Name": "NotAuthorized",
             "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
             "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorizing",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Authorizing",
               "Components.ChildContent": "True"
             }
           },
@@ -143,45 +143,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1829921162,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorizing",
-            "ParentTag": "AuthorizeRouteView"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -626171256,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorizing",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -249,7 +210,46 @@
         }
       },
       {
-        "HashCode": 102853183,
+        "HashCode": 1829921162,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorizing",
+            "ParentTag": "AuthorizeRouteView"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -626171256,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorizing",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 889348011,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -281,26 +281,6 @@
           },
           {
             "Kind": "Components.Component",
-            "Name": "Authorized",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Authorized",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Authorizing",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Authorizing",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
             "Name": "ChildContent",
             "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
             "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            </summary>\n        ",
@@ -316,6 +296,26 @@
             "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorized",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Authorized",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorizing",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Authorizing",
               "Components.ChildContent": "True"
             }
           },
@@ -345,7 +345,7 @@
         }
       },
       {
-        "HashCode": -1863442799,
+        "HashCode": -146825105,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -377,26 +377,6 @@
           },
           {
             "Kind": "Components.Component",
-            "Name": "Authorized",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Authorized",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Authorizing",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Authorizing",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
             "Name": "ChildContent",
             "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
             "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            </summary>\n        ",
@@ -412,6 +392,26 @@
             "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorized",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Authorized",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorizing",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Authorizing",
               "Components.ChildContent": "True"
             }
           },
@@ -438,108 +438,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 893176354,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorized",
-            "ParentTag": "AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "Documentation": "Specifies the parameter name for the 'Authorized' child content expression.",
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -1140358222,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorized",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "Documentation": "Specifies the parameter name for the 'Authorized' child content expression.",
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -956408685,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorizing",
-            "ParentTag": "AuthorizeView"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -679331131,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorizing",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -665,6 +563,108 @@
         "Metadata": {
           "Runtime.Name": "Components.None",
           "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 893176354,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorized",
+            "ParentTag": "AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for the 'Authorized' child content expression.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1140358222,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorized",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for the 'Authorized' child content expression.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -956408685,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorizing",
+            "ParentTag": "AuthorizeView"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -679331131,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorizing",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
@@ -37524,55 +37524,68 @@
         }
       },
       {
-        "HashCode": 1015307293,
+        "HashCode": 1126559449,
         "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
+        "Name": "DogKeepers.Client.Components.SignIn.SignInDialog",
         "AssemblyName": "DogKeepers.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DogCard"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Dog",
-            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
-            "Metadata": {
-              "Common.PropertyName": "Dog"
-            }
+            "TagName": "SignInDialog"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard"
+          "Common.TypeName": "DogKeepers.Client.Components.SignIn.SignInDialog"
         }
       },
       {
-        "HashCode": -563884599,
+        "HashCode": 716938581,
         "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
+        "Name": "DogKeepers.Client.Components.SignIn.SignInDialog",
         "AssemblyName": "DogKeepers.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DogKeepers.Client.Components.DogCard.DogCard"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Dog",
-            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
-            "Metadata": {
-              "Common.PropertyName": "Dog"
-            }
+            "TagName": "DogKeepers.Client.Components.SignIn.SignInDialog"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard",
+          "Common.TypeName": "DogKeepers.Client.Components.SignIn.SignInDialog",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 258679910,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.SignIn.SignInButton",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SignInButton"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.SignIn.SignInButton"
+        }
+      },
+      {
+        "HashCode": -1670199785,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.SignIn.SignInButton",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.SignIn.SignInButton"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.SignIn.SignInButton",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -37685,35 +37698,88 @@
         }
       },
       {
-        "HashCode": -741542286,
+        "HashCode": 1015307293,
         "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
+        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
         "AssemblyName": "DogKeepers.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "DogCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Dog",
+            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
+            "Metadata": {
+              "Common.PropertyName": "Dog"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu"
+          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard"
         }
       },
       {
-        "HashCode": -890888508,
+        "HashCode": -563884599,
         "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
+        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
         "AssemblyName": "DogKeepers.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DogKeepers.Client.Components.NavMenu.NavMenu"
+            "TagName": "DogKeepers.Client.Components.DogCard.DogCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Dog",
+            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
+            "Metadata": {
+              "Common.PropertyName": "Dog"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu",
+          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1353073272,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.TopBar.TopBar",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TopBar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.TopBar.TopBar"
+        }
+      },
+      {
+        "HashCode": 818015537,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.TopBar.TopBar",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.TopBar.TopBar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.TopBar.TopBar",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -37858,6 +37924,39 @@
         }
       },
       {
+        "HashCode": -741542286,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu"
+        }
+      },
+      {
+        "HashCode": -890888508,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.NavMenu.NavMenu",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.NavMenu.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.NavMenu.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1342278582,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Pages.Dogs.Dogs",
@@ -37977,39 +38076,6 @@
         }
       },
       {
-        "HashCode": 205561595,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Pages.Counter",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -1200134116,
-        "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.Pages.Counter",
-        "AssemblyName": "DogKeepers.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DogKeepers.Client.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -285249511,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Pages.FetchData",
@@ -38043,35 +38109,68 @@
         }
       },
       {
-        "HashCode": -997006616,
+        "HashCode": -1081869295,
         "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.App",
+        "Name": "DogKeepers.Client.Pages.Cares.Cares",
         "AssemblyName": "DogKeepers.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Cares"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.App"
+          "Common.TypeName": "DogKeepers.Client.Pages.Cares.Cares"
         }
       },
       {
-        "HashCode": 1262302166,
+        "HashCode": -1210037408,
         "Kind": "Components.Component",
-        "Name": "DogKeepers.Client.App",
+        "Name": "DogKeepers.Client.Pages.Cares.Cares",
         "AssemblyName": "DogKeepers.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DogKeepers.Client.App"
+            "TagName": "DogKeepers.Client.Pages.Cares.Cares"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DogKeepers.Client.App",
+          "Common.TypeName": "DogKeepers.Client.Pages.Cares.Cares",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 205561595,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Counter",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -1200134116,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Counter",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -38168,6 +38267,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "DogKeepers.Client.Layouts.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -997006616,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.App",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.App"
+        }
+      },
+      {
+        "HashCode": 1262302166,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.App",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

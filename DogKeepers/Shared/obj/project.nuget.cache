@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AaZKF+JyjFfbuo54RwTYyRTenpmEO8vNtTvfJG8S6C7ozpePDcg0KcN/YRXT1qU4LJ1Pw8Vzh6A+2jiAiQewuw==",
+  "dgSpecHash": "knb1DdFVBVmyYAHOTEF71NxeLQt75QXbKP7pQNXJb9uAHRuR9BbQNcpzFDGCWto6ZxkKsAvgnvKueJPDHw0Ppw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\CESAR-PC\\Documents\\ProgramaciónWeb\\Dogkeepers\\Shared\\DogKeepers.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CESAR-PC\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

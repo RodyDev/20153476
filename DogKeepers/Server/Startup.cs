@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Mvc;
 using DogKeepers.Server.Options;
 using DogKeepers.Server.Interfaces.Utils;
 using DogKeepers.Server.Utils;
+using DogKeepers.Server.Filters;
 
 namespace DogKeepers.Server
 {
@@ -33,7 +34,12 @@ namespace DogKeepers.Server
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllersWithViews();
+            services.
+                AddControllersWithViews(
+                    options => {
+                        options.Filters.Add<GlobalExceptionFilter>();
+                    }
+                );
             services.AddRazorPages();
 
             services.AddScoped<IDogRepository, DogRepository>();
@@ -42,10 +48,15 @@ namespace DogKeepers.Server
             services.AddScoped<ISizeService, SizeService>();
             services.AddScoped<ISizeRepository, SizeRepository>();
 
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+
             services.AddScoped<IRaceService, RaceService>();
             services.AddScoped<IRaceRepository, RaceRepository>();
 
-            services.AddSingleton<IBaseRepository, BaseRepository>();
+            services.AddScoped<IRaceRepository, RaceRepository>();
+
+            services.AddSingleton<IJwtUtil, JwtUtil>();
 
             services.AddSingleton<IFileUtil, FileUtil>();
 

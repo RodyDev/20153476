@@ -1,18 +1,14 @@
 ﻿@inherits LayoutComponentBase
 @using DogKeepers.Client.Components.NavMenu
+@using DogKeepers.Client.Components.TopBar
 
+<RadzenDialog/>
 <div class="sidebar">
     <NavMenu />
 </div>
 
 <div class="main">
-    <div class="top-row px-4" style="z-index: 10;">
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">Entrar</button>
-            <button type="button" class="btn btn-secondary">Registrarse</button>
-        </div>
-    </div>
-
+    <TopBar />
     <div class="content">
         @Body
     </div>

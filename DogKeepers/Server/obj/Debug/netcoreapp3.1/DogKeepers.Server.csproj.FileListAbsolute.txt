@@ -233,3 +233,8 @@ C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\obj\Debug\netcore
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\obj\Debug\netcoreapp3.1\DogKeepers.Server.genruntimeconfig.cache
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
 C:\Users\CESAR-PC\Documents\ProgramaciónWeb\DogKeepers\Server\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\dogkeepers\server\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\CESAR-PC\Documents\ProgramaciónWeb\Dogkeepers\server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Authorization.dll
